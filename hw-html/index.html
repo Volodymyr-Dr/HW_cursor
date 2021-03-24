@@ -56,14 +56,16 @@
         </tr>
     </table>
 
-     <form action#="action.php" method="POST"> 
+     <form action="#" method="POST"> 
         <p>
             <input type="text" placeholder="Введіть ваше ім'я"><br>
             <input type="text" placeholder="Введіть ваше прізвище"></p>
 
         <p> Яка ваша стать?<br>
-            <input type="radio" name="gender" value="Чоловіча" checked> Чоловіча<br>
-            <input type="radio" name="gender" value="Жіноча"> Жіноча</p>
+            <input type="radio" name="gender" value="Чоловіча" checked id="radio1">
+            <label for="radio1"> Чоловіча</label><br>
+            <input type="radio" name="gender" value="Жіноча" id="radio2">
+            <label for="radio2"> Жіноча</label></p>
         <p>
             <textarea name="question" rows="8" cols="30" placeholder="Напишіть своє запитання"></textarea></p>
         <p><select name="city">
@@ -75,9 +77,12 @@
             <option value="Харків">Харків</option>
            </select></p>
         <p> Вибір мови:<br>
-            <input type="checkbox" name="language" value="Українська"> Українська<br>
-            <input type="checkbox" name="language" value="Русский"> Русский<br>
-            <input type="checkbox" name="language" value="English"> English</p>
+            <input type="checkbox" name="language" value="Українська" id="check1">
+            <label for="check1"> Українська</label><br>
+            <input type="checkbox" name="language" value="Русский" id="check2">
+            <label for="check2"> Русский</label><br>
+            <input type="checkbox" name="language" value="English" id="check3">
+            <label for="check3"> English</label></p>
         <p>
             <input type="submit" value="Відправити">
         </p>

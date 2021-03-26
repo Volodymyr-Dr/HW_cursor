@@ -2,7 +2,11 @@ body {
     color: white;
     background-color: #252525;
 }
+caption {
+    padding: 10px;
+}
 table {
+    margin: 40px;
     background: #353535;
     width: 70%;
     border: 1px solid #444;
@@ -16,5 +20,13 @@ table {
   td {
     padding: 10px 10px;
     border-top: 1px solid #444;
-    empty-cells: hide;
   }
+  .arrow:after {
+    content:  '\25BE';
+  }
+  .point:after {
+      content: '\22EF';
+  }
+ span  {
+     color:dodgerblue
+ }

@@ -1,4 +1,5 @@
-html body {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -7,47 +8,5 @@ html body {
     height: 500px;
     background-color: #ED4C5C;
     position: relative;
-    box-sizing: border-box;
-}
-.block-1 {
-    display: inline-block;
-    position: relative;
-}
-.left {
-    width: 50%;
-    color: white;
-}
-.right {
-    width: 49%;
-    top: 94px;
-}
-img {
-    width: 533px;
-    height: 311px;
-}
-.text-1 {
-    position: relative;
-    width: 445px;
-}
-.fr {
-    padding: 122px 0 0 165px;
-}
-.sc {
-    padding: 24px 0 0 165px;
-}
-.ad {
-    padding: 40px 0 0 166px;
-}
-.playstore {
-    width: 32px;
-    height: 32px;
-}
-.appstore {
-    margin: 2px 20px 2px 20px;
-    width: 32px;
-    height: 32px;
-}
-.windows {
-    width: 24px;
-    height: 24px;
+    
 }

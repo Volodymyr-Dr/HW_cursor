@@ -17,8 +17,18 @@ p {
     font-weight: 400;
     line-height: 19.6px;
 }
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+}
+.f-s {
+    font-size: 12px;
+    font-weight: 400;
+
+}
 .add {
-    width: 100%;
+    width: 1440px;
     height: 500px;
     background-color: #ED4C5C;
     display: flex;
@@ -60,7 +70,7 @@ p {
     height: 24px;
 }
 .contact {
-    width: 100%;
+    width: 1440px;
     height: 500px;
     display: flex;
 }
@@ -110,7 +120,7 @@ select{
     background-image: url("img/ChevronDownE70D.svg");
     background-repeat: no-repeat;
     background-position-x: 96%;
-    background-position-y: 27px;
+    background-position-y: 26px;
 }
 button {
     width: 160px;
@@ -122,15 +132,46 @@ button {
     border-radius: 6px;
 }
 .footer {
-    width: 100%;
+    width: 1440px;
     height: 500px;
     background-color: #FAFAFA;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+}
+.address {
+    width: 259px;
+    height: 264px;
+    margin: 85px 30px 86px 161px;
+}
+.services {
+    width: 254px;
+    height: 164px;
+    margin: 85px 30px 186px 0;
+}
+.get {
+    width: 122px;
+    height: 128px;
+    margin: 85px 166px 222px 0;
+}
+.support {
+    width: 216px;
+    height: 100px;
+    margin: 85px 196px 0 0;
+}
+h2 { 
+    margin: 0 0 33px 0;
 }
 .social {
     width: 66px;
     height: 14px;
     display: flex;
+    justify-content:space-between;
+    margin: 20px 0 0 0;
+}
+.card {
+    width: 216px;
+    height: 31px;
+}
+.copyright {
+    margin: 141px 0 0 0;
 }

@@ -63,28 +63,70 @@ p {
     width: 100%;
     height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 .text-2 {
     width: 100%;
     max-width: 445px;
     height: auto;
-    border: 1px solid green;
+    position: relative;
+    top: 117px;
+    left: 176px;
 }
 .forms {
     width: 100%;
     max-width: 540px;
-    border: 1px solid blue;
-    height: auto;
-
+    height: 305px;
+    position: relative;
+    top: 117px;
+    left: 301px;
+}
+.con {
+    height: 107px;
+}
+.con-dw {
+    width: 434px;
+    height: 64px;
+}
+.form {
+    width: 100%;
+    height: 60px;
+    color: #777;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0 0 24px 0;
+    padding: 21px 0 20px 31px;
+}
+.name {
+    width: 255px;
+}
+.last {
+    float: right;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("img/ChevronDownE70D.svg");
+    background-repeat: no-repeat;
+    background-position-x: 96%;
+    background-position-y: 27px;
+}
+button {
+    width: 160px;
+    height: 50px;
+    color: white;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
 }
 .footer {
     width: 100%;
     height: 500px;
     background-color: #FAFAFA;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 }
 .social {

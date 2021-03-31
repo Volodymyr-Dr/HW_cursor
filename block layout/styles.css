@@ -7,30 +7,57 @@ body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
 }
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
 .add {
     width: 100%;
     height: 500px;
     background-color: #ED4C5C;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 .text-1 {
     color: white;
     max-width: 445px;
     width: 100%;
     height: auto;
+    position: relative;
+    top: 122px;
+    left: 165px;
 }
-img {
+.stay {
+    height: 107px;
+}
+.stay-dw {
+    height: 64px;
+    margin: 24px 0 42px 0;
+}
+.img {
     width: 100%;
     max-width: 533px;
     height: auto;
+    position: relative;
+    top: 94px;
+    left: 246px;
    }
 .logo {
     display: flex;
+    justify-content:space-around;
+    align-items:center;
     width: 100%;
     max-width: 134px;
     height: 32px;
+}
+.windows {
+    width: 24px;
+    height: 24px;
 }
 .contact {
     width: 100%;
@@ -39,6 +66,19 @@ img {
     align-items: center;
     justify-content: space-around;
 }
+.text-2 {
+    width: 100%;
+    max-width: 445px;
+    height: auto;
+    border: 1px solid green;
+}
+.forms {
+    width: 100%;
+    max-width: 540px;
+    border: 1px solid blue;
+    height: auto;
+
+}
 .footer {
     width: 100%;
     height: 500px;
@@ -46,4 +86,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.social {
+    width: 66px;
+    height: 14px;
+    display: flex;
 }

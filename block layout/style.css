@@ -117,6 +117,7 @@ select{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    background-color: white;
     background-image: url("img/ChevronDownE70D.svg");
     background-repeat: no-repeat;
     background-position-x: 96%;

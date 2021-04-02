@@ -1,0 +1,40 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color:#4B5D68;
+}
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1120px;
+    margin: 50px auto;
+    flex-shrink: 1;
+}
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+.logo {
+    margin-right: 9%;
+}
+.request {
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    text-align-last: center;
+    margin: 0 0 0 auto;
+}

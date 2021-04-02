@@ -22,7 +22,6 @@ nav {
     max-width: 1120px;
     height: 60px;
     margin: 50px auto;
-    flex-shrink: 1;
 }
 .about {
     font-weight: 800;
@@ -59,6 +58,7 @@ li {
 .request {
     width: 210px;
     max-height: 60px;
+    flex-shrink: 0;
     color: black;
     font-weight: 800;
     background: #FFFFFF;

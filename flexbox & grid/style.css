@@ -1,21 +1,32 @@
 body {
     width: 100%;
     height: auto;
-    background-color: #E5E5E5;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    color: #4B5D68;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28.8px;
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
-    color:#4B5D68;
+    color: #4B5D68;
 }
 nav {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 16px;
+    line-height: 25.6px;
     max-width: 1120px;
+    height: 60px;
     margin: 50px auto;
     flex-shrink: 1;
+}
+.about {
+    font-weight: 800;
+    color: black;
 }
 ul {
     display: flex;
@@ -27,14 +38,38 @@ li {
     margin: 0 20px;
 }
 .logo {
+    display: flex;
     margin-right: 9%;
+    align-items: flex-end;
+}
+.logo-circle{
+    width: 20px;
+    height: 20px;
+    background-color: #9C69E2;
+    border-radius: 20px;
+    margin-right: 9px;
+
+}
+.logo-oval{
+    width: 20px;
+    height: 35px;
+    background-color: #F063B8;
+    border-radius: 20px;
 }
 .request {
     width: 210px;
-    height: 60px;
+    max-height: 60px;
+    color: black;
+    font-weight: 800;
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
     text-align-last: center;
     margin: 0 0 0 auto;
+    padding: 20px;
+
+}
+.fas {
+    margin-left: 15%;
+    color: #9C69E2;
 }

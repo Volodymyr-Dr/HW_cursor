@@ -6,8 +6,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
-    line-height: 28.8px;
+    line-height: 160%;
     box-sizing: border-box;
+}
+h1 {
+    color: #212353;
 }
 a {
     text-decoration: none;
@@ -19,9 +22,9 @@ nav {
     align-items: center;
     font-size: 16px;
     line-height: 25.6px;
-    max-width: 1120px;
+    max-width: 78em;
     height: 60px;
-    margin: 50px auto;
+    margin: 3.125em auto 6.25em auto;
 }
 .about {
     font-weight: 800;
@@ -37,27 +40,12 @@ li {
     margin: 0 20px;
 }
 .logo {
-    display: flex;
-    margin-right: 9%;
-    align-items: flex-end;
-}
-.logo-circle{
-    width: 20px;
-    height: 20px;
-    background-color: #9C69E2;
-    border-radius: 20px;
-    margin-right: 9px;
-
-}
-.logo-oval{
-    width: 20px;
-    height: 35px;
-    background-color: #F063B8;
-    border-radius: 20px;
+    height: 2.2em;
+    margin-right: 7.56em;
 }
 .request {
-    width: 210px;
-    max-height: 60px;
+    width: 13.125em;
+    max-height: 3.75em;
     flex-shrink: 0;
     color: black;
     font-weight: 800;
@@ -65,11 +53,44 @@ li {
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
     text-align-last: center;
-    margin: 0 0 0 auto;
+    margin: 0 8em 0 auto;
     padding: 20px;
 
 }
-.fas {
-    margin-left: 15%;
-    color: #9C69E2;
+.arrow {
+    padding-left: 1.25em;
+    width: 1.25em;
+    height: 0.85em;
+}
+.text-header {
+    max-width: 69.3em;
+    height: 31.3em;
+    margin: auto;
+    background-image: url(img/image1.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 100%;
+    background-position-y: 100%;
+
+}
+.title-header {
+    max-width: 8.06em;
+    height: auto;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.mail-header {
+    max-width: 380px;
+    margin: 2.7em 0;
+}
+.btn-header  {
+    max-width: 170px;
+    height: auto;
+    padding: 0.85em 2em;
+    margin: 20;
+    background: #9C69E2;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
 }

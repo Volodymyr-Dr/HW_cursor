@@ -1,6 +1,7 @@
 body {
     width: 100%;
     height: auto;
+    min-width: 32.7em;
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     color: #4B5D68;
     font-family: 'Montserrat', sans-serif;

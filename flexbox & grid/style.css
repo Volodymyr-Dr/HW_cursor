@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: auto;
-    min-width: 32.7em;
+    min-width: 35em;
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     color: #4B5D68;
     font-family: 'Montserrat', sans-serif;
@@ -12,6 +12,7 @@ body {
 }
 h1 {
     color: #212353;
+    font-weight: 700;
 }
 a {
     text-decoration: none;
@@ -78,10 +79,9 @@ li {
     max-width: 8.06em;
     height: auto;
     font-size: 80px;
-    font-weight: 700;
     line-height: 110%;
 }
-.mail-header {
+.main-header {
     max-width: 380px;
     margin: 2.7em 0;
 }
@@ -93,5 +93,32 @@ li {
     background: #9C69E2;
     border-radius: 50px;
     color: white;
+    
+    font-weight: 600;
     text-align: center;
+}
+.about-us {
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+    max-width: 62em;
+    height: auto;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    margin: 5.5em auto;
+}
+.img-about-us {
+    width: 33.125vmin;
+    height: 35vmin;
+    margin: 1.76em 3.4em 1.34em 0.6em;
+    flex-shrink: 1;
+}
+.text-about-us {
+    width: 26.4em;
+    height: auto;
+    margin: 8.6vw 0;
+}
+.title-about-us {
+    font-size: 40px;
+    line-height: 130%;
 }

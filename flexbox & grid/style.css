@@ -212,10 +212,76 @@ li {
     letter-spacing: 0.005em;
     display: flex;
 }
-.testimonials {
+.purple_box {
     width: 69.87vw;
-    /* height: auto; */
-    height: 500px;
+    height: auto;
+    margin: 8.3em auto;
+    background-color: #9C69E2;
+    border-radius: 50px;
+}
+.testimonials-header {
+    font-size: 40px;
+    line-height: 130%;  
+    font-weight: 700;
+    color: white;
+    padding: 7.5vw 0 0 6.45vw;
+}
+.white_box {
+    width: 59.3vw;
+    height: auto;
+    background-color: white;
+    margin: 6.1vw 5.2vw 1.25vw 6.45vw;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    display: flex;
+}
+.slide {
+    display: flex;
+    padding: 3.87vw 5.2vw 3.87vw 6.45vw;
+    justify-content: space-between;
+}
+.dots {
+    display: flex;
+    width: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dot-1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F063B8;
+}
+.dot-2, .dot-3, .dot-4 {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+.arrows {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.fas {
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .testimonials {
+    width: 69.87vw;
+    height: auto;
     margin: 8.3em auto;
     background-color: #9C69E2;
     border-radius: 50px;
@@ -230,7 +296,7 @@ li {
 
 .one-testim {
     width: 59.3vw;
-    /* height: auto; */
+    height: auto;
     background-color: white;
     margin: 6.1vw 5.2vw 1.25vw 6.45vw;
     box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
@@ -290,7 +356,7 @@ li {
     opacity: 0.5;
     font-size: 20px;
     padding-left: 20px;
-}
+} */
 .horizont-line {
     width: 100%;
     height: 2px;

@@ -9,6 +9,7 @@ body {
     font-size: 18px;
     line-height: 160%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 h1 {
     color: #212353;
@@ -415,6 +416,7 @@ li {
 }
 .logo-fix {
     position: fixed;
-    right: 12vw;
-    bottom: 5.68vw;
+    right: 5vw;
+    bottom: 4.68vw;
 }
+

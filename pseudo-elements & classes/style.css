@@ -7,11 +7,12 @@
 .box {
     border: 1px solid mediumturquoise;
 }
+
+.box:nth-child(4n-1) {
+    background-color: red !important;
+}
 .box:nth-child(n+21) {
     background-color: blue;
-}
-.box:nth-child(4n-1) {
-    background-color: red;
 }
 .box_button {
     margin-top: 50px;

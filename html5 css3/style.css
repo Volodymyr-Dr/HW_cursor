@@ -42,3 +42,60 @@ aside {
     height: 3.05%;
     margin: 170.1% 40.1% 30.6% 40.1%;
 }
+
+main {
+    border: 1px solid green;
+    width: 78.75%;
+    display: grid;
+    grid-template-columns: 54.9% 39.5%;
+    grid-template-rows: 21.3% 61.1%;
+    gap: 2.6% 5.64% ;
+    position: relative;
+    top: 2.66%;
+    margin-left: 2.77%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #F5F5F7;
+    border-radius: 14px;   
+    position: relative;
+    height: 84%;
+    top: 15%;
+}
+
+.text_header {
+    position: relative;
+    left: 5%;
+    bottom: 25%;
+}
+
+.hello {
+    font-size: 36px;
+    line-height: 57px;
+    position: relative;
+    top: 10px;
+}
+
+
+
+.josh {
+    position: absolute;
+    width: 28.2%;
+    height: 118%;
+    right: 16.9%;
+}
+
+.navigation {
+    border: 1px solid red;
+}
+
+.couses {
+    border: 1px solid red;
+}
+
+.statistics {
+    border: 1px solid red;
+}

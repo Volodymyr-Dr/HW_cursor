@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    height: 100%;
+    min-width: 1100px;
+    min-height: 600px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    margin: 0;
+    display: flex;
+    position: absolute;
+}
+
+aside {
+    width: 9.1%;
+    height: 94.8%;
+    background-color: black;
+    border-radius: 24px;
+    margin: 1.6% 2.25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 35.7%;
+    height: 11.96%;
+    display: flex;
+    align-items: center;
+    margin: 11.85% 31.81% 48.73% 31.61%;
+}
+
+.menu {
+    height: 44.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.exit {
+    width: 19.7%;
+    height: 3.05%;
+    margin: 170.1% 40.1% 30.6% 40.1%;
+}

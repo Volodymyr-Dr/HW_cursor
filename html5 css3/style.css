@@ -49,7 +49,7 @@ main {
     width: 78.75%;
     display: grid;
     grid-template-columns: 54.9% 39.5%;
-    grid-template-rows: 21.3% 61.1%;
+    grid-template-rows: 21.3% 1fr;
     gap: 2.6% 5.64% ;
     position: relative;
     top: 2.66%;
@@ -166,6 +166,86 @@ main {
 
 .couses {
     border: 1px solid red;
+}
+
+.my_couses {
+    border: 1px solid teal;
+    display: flex;
+    height: 11.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autor_course {
+    font-size: 13px;
+    line-height: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cource_spanish {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80.6%;
+    height: 100%;
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+
+.logo_course {
+    width: 12.8%;
+    height: 80%;
+    background-color: white;
+    border-radius: 12px;
+    margin-left: 1.7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.course_progress {
+    width: 8%;
+    height: 50%;
+    position: relative;
+}
+
+.progress_rate {
+    font-size: 13px;
+    line-height: 15px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    
+}
+
+.progress_line {
+    position: absolute;
+    height: 100%;
+}
+
+.button_continue {
+    width: 24%;
+    height: 50%;
+    margin-right: 4.7%;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 15.5%;
+    height: 50%;
+
 }
 
 .statistics {

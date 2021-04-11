@@ -3,11 +3,24 @@ body {
     height: 100%;
     min-width: 1100px;
     min-height: 600px;
+    font-size: 16px;
+    line-height: 26px;
     font-family: 'Baloo Bhai 2', sans-serif;
     margin: 0;
     box-sizing: border-box;
     display: flex;
     position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.another_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
 }
 
 aside {
@@ -45,10 +58,9 @@ aside {
 }
 
 main {
-    border: 1px solid green;
     width: 78.75%;
     display: grid;
-    grid-template-columns: 54.9% 39.5%;
+    grid-template-columns: 54.9% 39%;
     grid-template-rows: 21.3% 1fr;
     gap: 2.6% 5.64% ;
     position: relative;
@@ -130,8 +142,6 @@ main {
     position: relative;
     top: 25%;
     left: 4%;
-   
-    
 }
 
 .stars_boxes {
@@ -164,25 +174,16 @@ main {
     line-height: 24px;
 }
 
-.couses {
-    border: 1px solid red;
-}
-
 .my_couses {
-    border: 1px solid teal;
     display: flex;
     height: 11.5%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 6.4%;
 }
 
-.autor_course {
-    font-size: 13px;
-    line-height: 15px;
-    font-family: 'Roboto', sans-serif;
-}
 
-.cource_spanish {
+.course_spanish {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -192,7 +193,7 @@ main {
     border-radius: 14px;
 }
 
-.logo_course {
+.logo_my_course {
     width: 12.8%;
     height: 80%;
     background-color: white;
@@ -211,11 +212,9 @@ main {
 }
 
 .progress_rate {
-    font-size: 13px;
-    line-height: 15px;
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 15%;
     
 }
 
@@ -236,8 +235,14 @@ button {
     color: white;
     background-color: black;
     border: none;
+    outline: none;
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+button:hover {
+    opacity: 0.3;
 }
 
 .arrows {
@@ -247,6 +252,69 @@ button {
     height: 50%;
 
 }
+
+.all_couses {
+    height: 100%;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 2.5%;
+}
+
+
+.menu_courses {
+    margin-bottom: 1.7%;
+}
+
+.nav_couses {
+    margin-right: 6%;
+}
+
+.course_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5.55vw;
+    background: #F5F5F7;
+    border-radius: 14px;
+    margin-bottom: 2.5%;
+}
+
+.logo_all_course {
+    width: 10.4%;
+    height: 81%;
+    background-color: white;
+    border-radius: 12px;
+    margin-left: 1.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12.7%;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6%;
+}
+
+.button_view {
+    width: 19.5%;
+    height: 50%;
+    margin-right: 4%;
+}
+
+
 
 .statistics {
     border: 1px solid red;

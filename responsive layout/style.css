@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    min-width: 1150px;
     height: auto;
     margin: 0;
     box-sizing: border-box;
@@ -18,6 +19,7 @@ body {
 }
 
 .title {
+    margin: 1.68rem 0;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
@@ -30,7 +32,6 @@ a {
 
 header {
     width: 100%;
-    min-width: 1150px;
     height: auto;
     display: flex;
     background: #F4F6F9;
@@ -73,15 +74,15 @@ header {
 
 .experience {
     display: flex;
-    min-width: 1150px;
+    height: auto;
 }
 
 .experience_video {
     width: 55.9%;
+    height: auto;
     background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(./img/Rectangle.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    
     position: relative;
 }
 
@@ -102,17 +103,31 @@ header {
 }
 
 .experience_text {
+    height: auto;
     margin-top: 9.23vw;
-    margin-bottom: 9vw;
-}
-
-.experience_text .title {
-    margin: 1.68rem 0;
+    margin-bottom: 11vw;
 }
 
 .learn_more {
     font-size: 16px;
     line-height: 21px;
     color: #00ADEE;
-    
 }
+
+.interface {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-image: url(./img/SAMPLE05.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+.interface_text {
+    margin: 15.07vw 0 11.87vw 11%;
+}
+
+.interface_text .learn_more {
+    margin-top: 3.375rem;
+}
+

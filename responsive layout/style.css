@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    min-width: 1150px;
+    /* min-width: 1150px; */
     height: auto;
     margin: 0;
     box-sizing: border-box;
@@ -45,6 +45,7 @@ header {
     
 }
 
+
 .header_left {
     width: 38%;
     height: auto;
@@ -76,6 +77,43 @@ header {
     display: flex;
     justify-content: space-between;
 
+}
+
+@media (min-width: 360px) and (max-width:720px) {
+    header {
+        background-image: none;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .header_left {
+        width: 85%;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    
+    .title_header {
+        font-weight: 700;
+        font-size: 1.87em;
+        line-height: 2.5rem;
+        letter-spacing: 0.03em;
+        margin-top: 5.25rem;    
+    }
+    
+    .text_header {
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+    .download {
+        width: 19em;
+        margin: 3.125rem auto 11.5vw auto;
+    }
+
+    .download_button {
+        width: 9.12em;
+    }
 }
 
 .experience {
@@ -161,7 +199,10 @@ header {
 
 .features {
     width: 100%;
-    display: grid;
+    height: auto;
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
     background-image: url(./img/Group\ 696.svg);
     background-repeat: no-repeat;
     background-position-x: 100%;
@@ -170,8 +211,8 @@ header {
 }
 
 .title_features {
-    width: 50%;
-    text-align: center;
+   /*  width: 50%;
+    text-align: center; */
     color: white;
     margin: 5.2vw auto 0 auto;
     font-weight: bold;
@@ -179,7 +220,7 @@ header {
     line-height: 37px;
 }
 
-.all_features {
+/* .all_features {
     display: grid;
     justify-content: center;
     grid-template-columns: 19.45em 19.45em 19.45em;
@@ -187,6 +228,18 @@ header {
     gap: 2.5% 5%;
     margin: 4.1% 11.3%;
 
+} */
+
+.all_features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.about_features {
+    width: 21.6%;
+    margin: 2% 2%;
 }
 
 .title_testimonials {
@@ -195,7 +248,6 @@ header {
 }
 
 .all_testimonials {
-   
     display: flex;
     position: absolute;
 }

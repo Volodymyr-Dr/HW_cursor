@@ -422,12 +422,6 @@ header {
         text-align: center;
     }
     
-    /* .all_testimonials {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    } */
-    
     .arrows {
         width: 80%;
         position: relative;
@@ -472,6 +466,21 @@ header {
     margin: 4% 3%;
 }
 
+@media (min-width: 360px) and (max-width:720px) {
+    .channels {
+        min-height: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .all_channels {
+        display: flex;
+        width: 88%;
+        justify-content: space-around;
+        margin: 4% auto;
+    }
+}
+
 .lower_part {
     display: flex;
     height: 485px;
@@ -491,6 +500,27 @@ header {
     width: 37%;
     height: auto;
     margin: 7.3% 0 0 4%;
+}
+
+@media (min-width: 360px) and (max-width:720px) {
+    .lower_part {
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    
+    .box_lower_img {
+        width: 100%;
+        order: 2;
+    }
+    
+    
+    .lower_text {
+        width: 85%;
+        height: auto;
+        margin: 7.3% 0 0 0;
+    }
 }
 
 footer {

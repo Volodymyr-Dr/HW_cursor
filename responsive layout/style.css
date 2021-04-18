@@ -320,10 +320,9 @@ header {
 }
 
 
-.features {
+/* .features {
     width: 100%;
     height: auto;
-    /* display: grid; */
     display: flex;
     flex-direction: column;
     background-image: url(./img/Group\ 696.svg);
@@ -334,24 +333,12 @@ header {
 }
 
 .title_features {
-   /*  width: 50%;
-    text-align: center; */
     color: white;
     margin: 5.2vw auto 0 auto;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
 }
-
-/* .all_features {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 19.45em 19.45em 19.45em;
-    grid-template-rows: 1fr 1fr;
-    gap: 2.5% 5%;
-    margin: 4.1% 11.3%;
-
-} */
 
 .all_features {
     display: flex;
@@ -363,7 +350,38 @@ header {
 .about_features {
     width: 21.6%;
     margin: 2% 2%;
+} */
+
+@media (min-width: 360px) and (max-width:720px) {
+    .features {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon_features {
+       fill: #00ADEE;
+    }
+
+    .title_features {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        margin: 2.5rem 0 0 0;
+    }
+
+    .about_features {
+        margin: 3.5rem 0;
+    }
+
+    .all_features {
+        width: 85%;
+    }
+
 }
+
 
 .title_testimonials {
     margin: 4% 0;

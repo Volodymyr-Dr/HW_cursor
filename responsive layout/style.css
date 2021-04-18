@@ -153,6 +153,10 @@ header {
     z-index: 2;
 }
 
+.inside_box_experience {
+    width: 100%;
+}
+
 .video {
     position: relative;
     width: 44.8%;
@@ -212,19 +216,27 @@ header {
         background: linear-gradient(180deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5);
         position:  absolute;   
     }
+
+    .inside_box_experience {
+        position: relative;
+    }
+
     .schedule {
         position: absolute;
-        width: 60%;
-        left: 11%;
-        top: 5.5vw;
-        z-index: 2;
+        display: flex;
+        width: 90%;
+        max-width: 450px;
+        left: 2%;
+        top: 3rem;
+        z-index: 1;
     }
     
     .video {
-        position: relative;
-        width: 44.8%;
-        top: 20.55vw;
-        left: 33%;
+        position: absolute;
+        width: 70%;
+        max-width: 345px;
+        top: 10rem;
+        left: 25vw;
     
     }
     

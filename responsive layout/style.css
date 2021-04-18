@@ -285,6 +285,41 @@ header {
     margin-top: 3.375rem;
 }
 
+.img_phone_box {
+    display: none;
+}
+
+@media (min-width: 360px) and (max-width:720px) {
+    .interface {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+    
+    .interface_text {
+        margin: 4rem 0 0 0;
+        text-align: center;
+        width: 90%;
+    }
+    
+    .about_interface {
+        width: 100%;
+    }
+
+    .img_phone_box {
+        display: block;
+        width: 100%;
+    }
+
+    .img_phone {
+        width: 100%;
+    }
+}
+
+
 .features {
     width: 100%;
     height: auto;

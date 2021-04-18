@@ -383,6 +383,11 @@ header {
 }
 
 
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
 .title_testimonials {
     margin: 4% 0;
     text-align: center;
@@ -390,21 +395,17 @@ header {
 
 .all_testimonials {
     display: flex;
-    position: absolute;
-}
-
-.testimonial {
-    margin-right: 2%;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .arrows {
+    width: 80%;
     position: relative;
-    height: 10em;
-    margin: 3.26% 6.5%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    margin: 0 auto;
+    bottom: 7rem;
 }
 
 .dots {
@@ -412,6 +413,44 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
+}
+
+@media (min-width: 360px) and (max-width:720px) {
+    
+    .title_testimonials {
+        margin: 10% 0;
+        text-align: center;
+    }
+    
+    /* .all_testimonials {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    } */
+    
+    .arrows {
+        width: 80%;
+        position: relative;
+        display: flex;
+        justify-content:flex-end ;
+        margin: 0 auto;
+        bottom: 7rem;
+    }
+    
+    .dots {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;
+        bottom: 2.5rem;
+    }
+
+    .testim_mob,.arrow_left  {
+        display: none;
+    }
+    .testim3 {
+        margin: 0 auto;
+    }
 
 }
 

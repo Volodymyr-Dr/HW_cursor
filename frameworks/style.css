@@ -1,4 +1,7 @@
 
+body {
+    
+}
 
 
 
@@ -25,4 +28,64 @@
     width: 100%;
     border: 1px solid #DBDBDB;
 }
+
+.header {
+    margin-top: 1.8rem;
+}
+
+.title_menu {
+    margin-top: 0.5rem;
+}
+
+.username {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    margin-right: 3%;  
+}
+
+
+
+.btns_title {
+    width: 28%;
+}
+
+.btn_follow {
+    width: 53%;
+    border: none;
+    background: #4094EF;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.btn_arrow {
+    width: 19%;
+    border: none;
+    background: #4094EF;
+    border-radius: 3px;
+    color: white;
+}
+.btn_arrow:hover, .btn_follow:hover{
+    background-color: lightskyblue;
+}
+
+.drops {
+    width: 11%;
+    margin: auto 2%;
+}
+
+.drop {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.drop:hover {
+    background-color: red; 
+}
+
 

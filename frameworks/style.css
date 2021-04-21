@@ -260,5 +260,38 @@ a:hover {
 }
 
 @media (max-width:770px) {
-
+    .your_photo {
+        width: 130px;
+        margin-left: 0;
+    }
+    .counter {
+        width: 80%;
+        margin: 1.5rem 0;
+    }
+    .information {
+        width: 100%;
+    }
+    .stories_box {
+        margin: 1.5rem 0;
+    }
+    .stor_box {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 0.5rem;
+    }
+    .storie_circle {
+        width: 60px;
+    }
+    .btn_posts, .btn_tagged {
+        height: 3rem;
+    }
+    .box_one_post {
+        width: auto;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .one_post {
+        margin-bottom: 0.4rem;
+        width: 175px;
+    }
 }

@@ -35,8 +35,13 @@ a:hover {
     background-position-x: 30%;
 }
 
+.search:focus {
+    background-image: none;
+}
+
 .menu {
     width: 18%;
+    min-width: 125px;
 }
 
 .icon_menu:hover {
@@ -52,6 +57,27 @@ a:hover {
 
 .icon:hover {
     border: 1px solid red;
+}
+
+.letter {
+    position: relative;
+}
+
+.number_letter {
+    width: 18px;
+    height: 18px;
+    background-color: #DC565B;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 12%;
 }
 
 .horizontal_line {
@@ -218,4 +244,21 @@ a:hover {
 
 .one_post {
     margin-bottom: 1rem;
+    padding-right: 2px;
+}
+
+@media (max-width:995px) {
+    .one_post {
+        width: 230px;
+    }
+    .counter {
+        text-align: center;
+    }
+    .btns_title {
+        min-width: 175px;
+    }
+}
+
+@media (max-width:770px) {
+
 }

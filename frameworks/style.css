@@ -1,9 +1,39 @@
 
 body {
-    
+    color: #262626;
+    font-size: 17px;
 }
 
+a {
+    color: #262626;
+}
 
+a:hover {
+    text-decoration: none;
+}
+
+.search_box {
+    width: 20%;
+    min-width: 180px;
+}
+
+.search {
+    outline: none;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8F8F8F;
+    height: 30px;
+    width: 100%;
+    background-image: url(./img/search.svg);
+    background-repeat: no-repeat;
+    background-size: 0.7rem;
+    background-position-y: 50%;
+    background-position-x: 30%;
+}
 
 .menu {
     width: 18%;
@@ -27,6 +57,12 @@ body {
 .horizontal_line {
     width: 100%;
     border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+}
+
+.your_photo {
+    width: 155px;
+    margin-left: 25%;
 }
 
 .header {
@@ -62,7 +98,7 @@ body {
 }
 
 .btn_arrow {
-    width: 19%;
+    width: 18%;
     border: none;
     background: #4094EF;
     border-radius: 3px;
@@ -88,4 +124,98 @@ body {
     background-color: red; 
 }
 
+.counter {
+    width: 50%;
+    margin: 2rem 0;
+    line-height: 21px;
+    font-weight: 500;
+}
 
+.information {
+    width: 75%;
+}
+
+.name {
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.info {
+    line-height: 25px;
+}
+
+.website {
+    color: #133768;
+    font-weight: 500;
+}
+
+.stories_box {
+    margin: 3.5rem 0;
+    display: flex;
+    margin-left: 8%;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.stor_box {
+    width: 82px;
+    height: 82px;
+    border: 2px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+
+}
+
+.stor_box:hover {
+    border: 2px solid palevioletred;
+    cursor: pointer;
+}
+
+.storie_circle {
+    width: 74px;
+    height: 74px;
+}
+
+.posts_menu {
+    position: relative;
+    bottom: 2px;
+}
+
+
+.btn_posts {
+    margin-right: 3rem;
+    height: 5rem;
+    border-top: 2px solid black;
+    box-sizing: border-box;
+}
+
+.btn_tagged {
+    height: 5rem;
+    color: #8F8F8F;
+}
+
+.btn_tagged:hover, .btn_posts:hover {
+    cursor: pointer;
+    color: palevioletred;
+}
+
+.icon_posts {
+    margin-right: 0.4rem;
+}
+
+.one_post {
+    margin-bottom: 1rem;
+}

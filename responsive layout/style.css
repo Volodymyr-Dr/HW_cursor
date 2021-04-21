@@ -559,6 +559,9 @@ footer {
     justify-content: space-between;
     
 }
+.foot_marg {
+    margin-right: 3%;
+}
 
 @media (min-width: 360px) and (max-width:720px) {
     footer {
@@ -580,4 +583,14 @@ footer {
     justify-content: space-between;
     margin-bottom: 1.5rem;
     } 
+}
+
+.click:hover {
+    border: 1px solid rgb(240, 89, 195);
+    border-radius: 50%;
+    
+}
+
+.click_text:hover {
+    color: mediumvioletred;
 }

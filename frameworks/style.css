@@ -294,4 +294,72 @@ a:hover {
         margin-bottom: 0.4rem;
         width: 175px;
     }
+    .number_letter {
+        right: 16%;
+    }
 }
+.only_580px {
+    display: none;
+}
+
+@media (max-width:580px) {
+    .form-inline {
+        display: none;
+    }
+    .your_photo {
+        width: 120px;
+        margin-left: 0;
+    }
+    .box_your_photo {
+        width: 35%;
+    }
+    .header {
+        flex-wrap: nowrap;
+    }
+    .number_letter {
+        right: 88px;
+    }
+    .title_menu {
+        width: 170px;
+    }
+    .username {
+        margin-left: 2%;
+    }
+    .counter {
+        width: 95%;
+        max-width: 230px;
+        font-size: 15px;
+    }
+    .information {
+        display: none;
+    }
+    .only_580px {
+        display: block;
+        font-size: 15px;
+    }
+    .stories_box {
+        margin: 1rem 0;
+    }
+    .stor_box {
+        width: 58px;
+        height: 58px;
+    }
+    .storie_circle {
+        width: 50px;
+    }
+    .btn_posts, .btn_tagged {
+        height: 2rem;
+    }
+    .posts_menu {
+        font-size: 12px;
+    }
+    .all_posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .one_post {
+        width: auto;
+    }
+}
+

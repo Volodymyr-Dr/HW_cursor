@@ -1,6 +1,6 @@
 .star_wars {
     width: 500px;
-    height: 500px;
+    height: 400px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -56,3 +56,81 @@
 }
 
 
+
+
+.pendulum {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(174, 226, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balls {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 0.8;
+    box-shadow: 0 100px 25px -5px rgb(158, 145, 145);
+    
+}
+.ball_1 {
+    background-color: rgb(52, 52, 117);
+}
+.ball_2 {
+    background-color: rgb(104, 77, 201);
+}
+.ball_3 {
+    background-color: rgb(114, 17, 82);
+}
+.ball_4 {
+    background-color: rgb(194, 71, 81);
+}
+.ball_5 {
+    background-color: rgb(214, 64, 26);
+}
+.ball_6 {
+    background-color: rgb(231, 43, 9);
+}
+.ball_7 {
+    background-color: red;
+}
+.axix_rigt {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    transform: rotate(0);
+    transform-origin: top;
+    position: relative;
+    animation-name: ball_7;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes ball_7 {
+    0% {transform: rotate(0);}
+    20% {transform: rotate(0);}
+    50% {transform: rotate(0);}
+    80% {transform: rotate(-85deg);}
+    100% {transform: rotate(0);}
+}
+
+.axix_left {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    transform-origin: top;
+    position: relative;
+    animation-name: ball_1;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes ball_1 {
+    0% {transform: rotate(0);}
+    20% {transform: rotate(80deg);}
+    50% {transform: rotate(0);}
+    70% {transform: rotate(0);}
+    100% {transform: rotate(0);}
+}

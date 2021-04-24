@@ -1,0 +1,58 @@
+.star_wars {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.swords {
+    width: 250px;
+    height: 10px;
+    margin: 20px auto;
+    background-color: white;
+    display: flex;
+    
+}
+.black_part {
+    background-color: black;
+    height: 100%;
+    width: 20px;
+    
+}
+.grey_part {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    width: 40px;    
+}
+.sword_1 {
+    transition: all 2s;
+}
+.sword_2 {
+    justify-content: flex-end;
+    transition: transform 2s, box-shadow 3s, background-color 4s;
+}
+.sword_3 {
+    transition: transform 2s, box-shadow 3s, background-color 4s; 
+}
+.active:hover .sword_1 {
+    transform: translateY(-60px);
+    opacity: 0;
+}
+
+.active:hover  .sword_2 {
+    transform: rotate(45deg);
+    box-shadow: -30px 0 30px 5px rgb(238, 74, 128);
+    background-color: rgb(230, 152, 178);
+}
+.active:hover .sword_3 {
+    transform: rotate(-45deg);
+    transform-origin: 35% 10%;
+    box-shadow: 30px 0 30px 5px rgb(115, 226, 121);
+    background-color: rgb(156, 224, 159);
+    
+}
+
+

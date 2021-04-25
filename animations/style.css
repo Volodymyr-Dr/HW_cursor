@@ -56,12 +56,20 @@
 }
 
 
-
-
-.pendulum {
+.pendulum_zone {
     width: 500px;
     height: 400px;
     background-color: rgb(174, 226, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pendulum {
+    /* width: 500px;
+    height: 400px; */
+    /* background-color: rgb(174, 226, 219); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +80,7 @@
     height: 35px;
     border-radius: 50%;
     opacity: 0.8;
-    box-shadow: 0 100px 25px -5px rgb(158, 145, 145);
+    /* box-shadow: 0 100px 25px -5px rgb(158, 145, 145); */
     
 }
 .ball_1 {
@@ -96,15 +104,57 @@
 .ball_7 {
     background-color: red;
 }
+
+.shadow_box {
+    display: flex;
+}
+
+.shadow {
+    width: 35px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 20px 7px   rgb(158, 145, 145) ;
+}
+
+.shadow_first {
+    position: relative;
+    animation-name: shadow_first;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shadow_first {
+    0% { right :0px; }
+    20% { right :60px;}
+    50% {right: 0px;}
+    70% {right: 0px;}
+    100% {right: 0px;}
+}
+.shadow_end {
+    position: relative;
+    animation-name: shadow_end;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shadow_end {
+    0% { left :0px; }
+    20% { left :0px;}
+    50% {left: 0px;}
+    80% {left: 60px;}
+    100% {left: 0px;}
+}
+
 .axix_rigt {
     height: 150px;
     display: flex;
     align-items: center;
     transform: rotate(0);
     transform-origin: top;
-    position: relative;
     animation-name: ball_7;
-    animation-duration: 0.8s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -121,9 +171,8 @@
     display: flex;
     align-items: center;
     transform-origin: top;
-    position: relative;
     animation-name: ball_1;
-    animation-duration: 0.8s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }

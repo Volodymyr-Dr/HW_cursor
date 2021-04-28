@@ -131,3 +131,32 @@ h2 {
         }
     }
 }
+.purple_section {
+    background-image: url(./img/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 11rem 0;
+}
+.text_purple_section {
+    width: 600px / 1440px *100%;
+    text-align: center;
+    margin: 0 auto;
+    .price {
+        @include fontz(50px, 500, 66px, #222F65);
+        letter-spacing: 1px;
+        margin-top: 2.1rem;
+    }
+    .text_price {
+        color: #37447E;
+    }
+    .text_over_button {
+        @include fontz(14px, 350, 24px, #5D6970);
+        padding: 10px;
+        margin-top: 3rem;
+    }
+    .button_price {
+        width: 189px;
+        height: 32px;
+        margin: 0 auto;
+    }
+}

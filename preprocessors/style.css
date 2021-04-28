@@ -138,3 +138,40 @@ h2 {
   line-height: 18px;
   color: #5D6970;
 }
+
+.purple_section {
+  background-image: url(./img/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 11rem 0;
+}
+
+.text_purple_section {
+  width: 41.6666666667%;
+  text-align: center;
+  margin: 0 auto;
+}
+.text_purple_section .price {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 66px;
+  color: #222F65;
+  letter-spacing: 1px;
+  margin-top: 2.1rem;
+}
+.text_purple_section .text_price {
+  color: #37447E;
+}
+.text_purple_section .text_over_button {
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 24px;
+  color: #5D6970;
+  padding: 10px;
+  margin-top: 3rem;
+}
+.text_purple_section .button_price {
+  width: 189px;
+  height: 32px;
+  margin: 0 auto;
+}

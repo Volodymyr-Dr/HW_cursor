@@ -1,0 +1,89 @@
+%btn {
+    border: none;
+    background: #111B47;
+    border-radius: 2px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+@mixin fontz ($fs, $fw, $lh, $c) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $c;
+}
+
+
+body {
+    @include fontz(16px, 400, 26px, #505F98);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./img/designer_1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+}
+.container {
+    max-width: 1200px;
+}
+.text_link_nav {
+    @include fontz(14px, 400, 24px, #505F98);    
+}
+li {
+    margin-right: 20%;
+}
+
+header {
+    height: auto;
+}
+
+button {
+    @extend %btn;
+}
+.navbar_box {
+    
+    .button_nav {
+        width: 160px;
+    }
+    .nav_menu {
+        max-width: 300px;
+    }
+}
+
+.text_box_header {
+    width: 539px / 1200px *100%;
+    height: auto;
+    margin-top: 16.3rem;
+    margin-bottom: 4.3rem;
+    .text_header_title {
+        @include fontz(50px, 500, 69px, #091133);
+        margin-bottom: 1rem;
+    }
+    .text_header {
+        @include fontz(18px, 400, 30px, #505F98);
+    }
+    
+}
+
+.button_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px / 1200px *100%;
+    height: 36px;
+    margin-bottom: 24.125rem;
+    .button_box_left {
+        width: 189px;
+        height: 100%;
+    }
+    .button_box_right {
+        width: 189px;
+        height: 100%; 
+        .button_right {
+            background: none;
+            color: #111B47;
+            border: 2px solid #111B47;
+        }  
+    }
+    
+}

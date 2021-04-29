@@ -282,4 +282,35 @@ h2 {
         width: 100%;
         text-align: center;
     }
+    .main_sections {
+        text-align: center;
+    }
+    .img_size {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .text_box_main_1 {
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .icon_boxes {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .button_box {
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+    .main_sections_0 {
+        order: 1;
+    }
+    .purple_section {
+        background-size: auto;
+    }
+    .text_purple_section {
+        width: 55%;
+    }
+    .footer_box .over_line {
+        padding: 1.5rem 0
+    }
 }

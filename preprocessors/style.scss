@@ -26,13 +26,14 @@ a {
     @include fontz(14px, 400, 24px, #929ECC);
 }
 
+
 .back_img {
     background-image: url(./img/designer_1.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right top;
     width: 100%;
-    height: 1100px;
+    height: 68.75rem;
     position: absolute;
     z-index: 0;
 
@@ -40,15 +41,11 @@ a {
 .container {
     max-width: 1200px;
 }
-.text_link_nav {
-    @include fontz(14px, 400, 24px, #505F98);    
-}
+
 .text_logo {
     @include fontz(26px, 900, 38px, #37447E)
 }
-li {
-    margin-right: 20%;
-}
+
 
 header {
     height: auto;
@@ -57,16 +54,40 @@ header {
 
 button {
     @extend %btn;
+    transition: transform 1s;
+    &:hover {
+        background: #acd5eb;
+        color: #111B47;
+        border: 2px solid #111B47;
+        transform: scale(1.1, 1.1);
+    }
+    &:active {
+        border: none;
+        background: #111B47;
+        border-radius: 2px;
+        color: white;
+    }
 }
+
 .navbar_box {
-    
+    position: relative;
+    z-index: 1;
+    padding-top: 1rem;
+    .nav_menu_box {
+        width: 250px;
+        display: flex;
+        align-items: center;
+        .nav_menu:hover {
+            color: #091133;
+        }
+    }
     .button_nav {
         width: 160px;
-    }
-    .nav_menu {
-        max-width: 300px;
-    }
+        height: 26px;
+        @include fontz(12px, 500, 18px, white)
+        }
 }
+
 
 .text_box_header {
     width: 539px / 1200px *100%;
@@ -78,6 +99,7 @@ button {
     .text_header_title {
         @include fontz(50px, 500, 69px, #091133);
         margin-bottom: 1rem;
+        
     }
     .text_header {
         @include fontz(18px, 400, 30px, #505F98);
@@ -105,10 +127,20 @@ button {
             background: none;
             color: #111B47;
             border: 2px solid #111B47;
+            &:hover {
+                background: #acd5eb;
+            }
+            &:active {
+                border: none;
+                background: #111B47;
+                border-radius: 2px;
+                color: white;
+            }
+            }
         }  
-    }
-    
 }
+
+
 .main_sections {
     padding-top: 5rem;
     margin-bottom: 10.1rem;
@@ -190,10 +222,64 @@ h2 {
         padding: 1.5rem 0;
         .footer_menu {
             width: 21%;
+            .color_menu:hover {
 
+                color: #091133;
+            }
         }
         .social {
             width: 21%;
+            .icon_soc:hover {
+                
+                fill: #091133;
+            }
+            
         }
+    }
+}
+@media (max-width: 1100px) {
+    .back_img {
+        background-image: url(./img/Group.svg);
+        background-position: right;
+        margin-top: 3rem;
+        height: 60rem;
+    }
+    .container {
+        max-width: 900px;
+    }
+    .text_box_header {
+        width: 539px / 900px *100%;
+        background-color: rgba($color: #ffff, $alpha: 0.7);
+        border-radius: 10%;
+    }
+    .button_box {
+        width: 45%;
+        margin-bottom: 14rem;
+    }
+    .main_sections {
+        margin-bottom: 0;
+    }
+    .img_size {
+        width: 100%;
+    }
+    .purple_section {
+        background-size: 130%;
+        padding: 5rem 0;
+    }
+}
+@media ( max-width: 770px) {
+    .back_img {
+        background-image: url(./img/Rectangle.svg);
+        background-size: auto;
+    }
+    .container {
+        max-width: 85%;
+    }
+    .navbar_box .nav_menu_box {
+        width: 140px;
+    }
+    .text_box_header {
+        width: 100%;
+        text-align: center;
     }
 }

@@ -29,20 +29,13 @@ a {
   background-size: contain;
   background-position: right top;
   width: 100%;
-  height: 1100px;
+  height: 68.75rem;
   position: absolute;
   z-index: 0;
 }
 
 .container {
   max-width: 1200px;
-}
-
-.text_link_nav {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #505F98;
 }
 
 .text_logo {
@@ -52,19 +45,46 @@ a {
   color: #37447E;
 }
 
-li {
-  margin-right: 20%;
-}
-
 header {
   height: auto;
 }
 
+button {
+  transition: transform 1s;
+}
+button:hover {
+  background: #acd5eb;
+  color: #111B47;
+  border: 2px solid #111B47;
+  transform: scale(1.1, 1.1);
+}
+button:active {
+  border: none;
+  background: #111B47;
+  border-radius: 2px;
+  color: white;
+}
+
+.navbar_box {
+  position: relative;
+  z-index: 1;
+  padding-top: 1rem;
+}
+.navbar_box .nav_menu_box {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+.navbar_box .nav_menu_box .nav_menu:hover {
+  color: #091133;
+}
 .navbar_box .button_nav {
   width: 160px;
-}
-.navbar_box .nav_menu {
-  max-width: 300px;
+  height: 26px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: white;
 }
 
 .text_box_header {
@@ -111,6 +131,15 @@ header {
   background: none;
   color: #111B47;
   border: 2px solid #111B47;
+}
+.button_box .button_box_right .button_right:hover {
+  background: #acd5eb;
+}
+.button_box .button_box_right .button_right:active {
+  border: none;
+  background: #111B47;
+  border-radius: 2px;
+  color: white;
 }
 
 .main_sections {
@@ -220,6 +249,68 @@ h2 {
 .footer_box .under_line .footer_menu {
   width: 21%;
 }
+.footer_box .under_line .footer_menu .color_menu:hover {
+  color: #091133;
+}
 .footer_box .under_line .social {
   width: 21%;
+}
+.footer_box .under_line .social .icon_soc:hover {
+  fill: #091133;
+}
+
+@media (max-width: 1100px) {
+  .back_img {
+    background-image: url(./img/Group.svg);
+    background-position: right;
+    margin-top: 3rem;
+    height: 60rem;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+
+  .text_box_header {
+    width: 59.8888888889%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10%;
+  }
+
+  .button_box {
+    width: 45%;
+    margin-bottom: 14rem;
+  }
+
+  .main_sections {
+    margin-bottom: 0;
+  }
+
+  .img_size {
+    width: 100%;
+  }
+
+  .purple_section {
+    background-size: 130%;
+    padding: 5rem 0;
+  }
+}
+@media (max-width: 770px) {
+  .back_img {
+    background-image: url(./img/Rectangle.svg);
+    background-size: auto;
+  }
+
+  .container {
+    max-width: 85%;
+  }
+
+  .navbar_box .nav_menu_box {
+    width: 140px;
+  }
+
+  .text_box_header {
+    width: 100%;
+    text-align: center;
+  }
 }

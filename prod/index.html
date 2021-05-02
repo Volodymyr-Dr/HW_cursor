@@ -6,8 +6,15 @@
     <link rel="stylesheet" href="css/screen.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/preloader.css">
 </head>
 <body>
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
 <header>
     <div class="wrapper">
         <img src="img/logo.webp" alt="Logo Avtoparktronik" class="logo">
@@ -306,6 +313,14 @@
     function stopVideo() {
         player.stopVideo();
     }
+
+    window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
 </script>
 </body>
 </html>

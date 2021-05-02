@@ -179,6 +179,7 @@ button {
 
 .main-screen img {
     width: 90%;
+    height: 27%;
 }
 
 .main-screen .h1 {
@@ -394,7 +395,7 @@ button {
 
 .how .full-width {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .how .small-height-fix {
@@ -457,11 +458,12 @@ button {
 
 .reviews .main-review-img {
     width: calc(30% - 15px);
+    height: 100%;
     margin-right: 10px;
     border: 5px solid #ffdc00;
     vertical-align: top;
     display: inline-block;
-    height: auto;
+    
 }
 
 .reviews .review-author {
@@ -564,6 +566,10 @@ button {
 .last-screen .plus {
     right: 70px;
     text-align: right;
+}
+.left-block .full-width {
+    width: 100%;
+    height: 100%;
 }
 
 .last-screen .price {

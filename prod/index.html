@@ -148,7 +148,9 @@
 <section class="video">
     <div class="wrapper">
         <h2 class="h2">как работает <span class="yellow">видеопарктроник?</span></h2>
-        <div id="video"></div>
+        <div id="video">
+            <video width="100%" height="100%" src="./video/videoplayback.mp4" controls class="video-player"></video>
+        </div>
     </div>
 </section>
 <section class="how">
@@ -194,9 +196,33 @@
                     Днепропетровск</i></div>
             </div>
         </div>
+        <div class="review-slider">
+            <div class="slide">
+                <img src="img/review1.webp" alt="" class="main-review-img">
+                <p class="review-text">
+                    Опять долгие ночи в интернете в поисках обзоров и сравнений… Проблема таких устройств что у них либо
+                    дизайн
+                    уродский огромный — в полтора раза больше штатного, а я вообще не люблю заднее зеркало, так как за 3
+                    года
+                    вождения рабочих "каблучков" типа Кангу и Берлинго вообще привык без него обходится, либо тех.
+                    данные
+                    никакие — камеры очень плохого качества… Уже думал что печаль… :( Но вот за пару дней поисков
+                    наткнулся на
+                    то о чем мечтал действительно — HD Recorder. Нашел его у одного из драйвечан, и у других. Все в
+                    восторге от
+                    данного устройства. Качество видео очень хорошее, в машине не видно его вообще, крепления на штатное
+                    зеркало
+                    любой машины, вообщем то что доктор прописал!
+                </p>
+                <div class="review-author"><img src="img/review1-ava.webp" alt="" class="ava"><b>Константин</b><i>г.
+                    Днепропетровск</i></div>
+            </div>
+        </div>
         <img src="img/arrow-right.webp" alt="" class="arrow-right">
     </div>
 </section>
+
+
 <section class="delivery">
     <div class="wrapper">
         <h2 class="h2">Доставка и гарантии</h2>
@@ -273,7 +299,7 @@
 </footer>
 <script src="lib/plugins.js"></script>
 <script>
-    // 2. This code loads the IFrame Player API code asynchronously.
+    /* // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
 
     tag.src = "https://www.youtube.com/iframe_api";
@@ -312,7 +338,7 @@
     }
     function stopVideo() {
         player.stopVideo();
-    }
+    } */
 
     window.onload = function () {
     document.body.classList.add('loaded_hiding');
@@ -322,5 +348,6 @@
     }, 500);
   }
 </script>
+
 </body>
 </html>

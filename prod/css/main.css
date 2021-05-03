@@ -379,6 +379,10 @@ button {
     border: 10px solid #ffdc00;
     display: block;
 }
+.video-player {
+    border: none;
+    outline: none;
+}
 
 .how {
     text-align: center;
